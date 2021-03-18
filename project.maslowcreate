@@ -233,6 +233,20 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.7232796486090777,
+            "y": 0.5687022900763359,
+            "uniqueID": 125259,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/195199/258187Extrude"
+                }
+            ],
+            "selectedColorIndex": "7"
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9854439592430859,
@@ -241,7 +255,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/195199/258187Extrude"
+                    "ioValue": "atoms/195199/125259Color"
                 }
             ]
         }
@@ -270,10 +284,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 258187,
-            "ap2ID": 682747
+            "ap2ID": 125259
         },
         {
             "ap1Name": "geometry",
@@ -281,6 +295,13 @@
             "ap2Primary": false,
             "ap1ID": 777510,
             "ap2ID": 737253
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 125259,
+            "ap2ID": 682747
         }
     ],
     "fileTypeVersion": 1,
